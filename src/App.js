@@ -6,7 +6,7 @@ const App =()=>{
 
   const submitInfo =(e)=>{
     e.preventDefault()
-    if(data.name===''|| data.lastName==='')return alert("no hay datos")
+    //if(data.name===''|| data.lastName==='')return alert("no hay datos")
     setListInviteds([
       ...listInviteds,
       {
